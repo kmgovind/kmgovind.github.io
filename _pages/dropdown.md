@@ -1,8 +1,8 @@
 ---
 layout: page
 title: submenus
-nav: true
-nav_order: 8
+nav: false  # Set to true to enable dropdown menu in navigation
+# nav_order: 8  # Uncomment to set navigation order when enabling
 dropdown: true
 children:
   - title: bookshelf

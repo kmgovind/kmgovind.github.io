@@ -2,7 +2,8 @@
 layout: book-shelf
 title: bookshelf
 permalink: /books/
-nav: false
+nav: false  # Set to true to enable in navigation
+# nav_order: 8  # Uncomment and set navigation order when enabling
 collection: books
 ---
 

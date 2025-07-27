@@ -1,14 +1,12 @@
-github_users:
-  - torvalds
-  - alshedivat
+# github_users:
+#   - kmgovind
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - corelab-umich/seatrac-asv-controller
+  - kmgovind/acc-2022
+  - kmgovind/saildrone-controller
+  - kmgovind/persistent-speed-control
+  - kmgovind/enviro-mapper
+  - kmgovind/auto-sailboat

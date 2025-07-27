@@ -2,8 +2,8 @@
 layout: default
 permalink: /blog/
 title: blog
-nav: true
-nav_order: 1
+nav: false  # Set to true to enable in navigation
+# nav_order: 1  # Uncomment to set navigation order
 pagination:
   enabled: true
   collection: posts
