@@ -3,7 +3,7 @@ layout: profiles
 permalink: /people/
 title: people
 description: members of the lab or group
-nav: false  # Set to true to enable in navigation
+nav: false # Set to true to enable in navigation
 # nav_order: 7  # Uncomment to set navigation order
 
 profiles:
