@@ -12,8 +12,8 @@ The **NSF Graduate Research Fellowship Program (GRFP)** is a prestigious fellows
 
 # Application
 
-- [Personal Statement](assets/pdf/grfp-personal.pdf)
-- [Research Statement](assets/pdf/grfp-research.pdf)
+- [Personal Statement](/assets/pdf/grfp-personal.pdf)
+- [Research Statement](/assets/pdf/grfp-research.pdf)
 
 # 2024-2025 Award Year
 
