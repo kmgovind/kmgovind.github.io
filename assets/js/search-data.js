@@ -436,6 +436,11 @@ ninja.data = [{
           description: "For the 2020 FIRST Robotics competiton, my team wanted to develop a mechanism to shoot foam dodgeballs into a target placed over 10 feet above the ground. In order to ensure the robot would be accurate when shooting, we developed a computer-vision system that would autonomously determine the appropriate parameters necessary for the shooter mechanism to shoot the balls into the target.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cv_robotics/";
+            },},{id: "projects-clarity-driven-adaptive-mission-planning-for-a-solar-powered-autonomous-surface-vessel",
+          title: 'Clarity-Driven Adaptive Mission Planning for a Solar-Powered Autonomous Surface Vessel',
+          description: "An energy-aware ergodic search framework that optimizes trajectory and speed using a mathematically grounded information metric (clarity) for long-duration marine missions.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/lake_testing/";
             },},{
         id: 'social-email',
         title: 'email',
