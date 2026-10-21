@@ -416,17 +416,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-nsf-graduate-research-fellowship",
+          section: "News",},{id: "projects-nsf-graduate-research-fellowship",
           title: 'NSF Graduate Research Fellowship',
           description: "My annual updates for the NSF GRFP",
           section: "Projects",handler: () => {
@@ -441,6 +431,16 @@ ninja.data = [{
           description: "An energy-aware ergodic search framework that optimizes trajectory and speed using a mathematically grounded information metric (clarity) for long-duration marine missions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/lake_testing/";
+            },},{id: "projects-optimally-trading-energy-for-information-through-speed-trajectory-optimization-of-sustainably-powered-mobile-robots",
+          title: 'Optimally Trading Energy for Information through Speed Trajectory Optimization of Sustainably Powered Mobile...',
+          description: "Characterizing energy-information tradeoffs in a periodic optimal control setting",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/periodic_ive/";
+            },},{id: "projects-physics-informed-neural-network-based-persistent-optimal-control-of-sustainably-powered-mobile-robots",
+          title: 'Physics-Informed Neural Network-Based Persistent Optimal Control of Sustainably Powered Mobile Robots',
+          description: "Using PINNs to learn infinte-horizon value functions",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pinn_ive/";
             },},{
         id: 'social-email',
         title: 'email',
