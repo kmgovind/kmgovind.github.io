@@ -25,14 +25,14 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "",
+          description: "Code for my research, coursework, and robotics projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "",
+          description: "Research, engineering experience, education, and service.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -421,9 +421,14 @@ ninja.data = [{
           description: "My annual updates for the NSF GRFP",
           section: "Projects",handler: () => {
               window.location.href = "/projects/GRFP/";
-            },},{id: "projects-cv-aided-robotics",
-          title: 'CV Aided Robotics',
-          description: "For the 2020 FIRST Robotics competiton, my team wanted to develop a mechanism to shoot foam dodgeballs into a target placed over 10 feet above the ground. In order to ensure the robot would be accurate when shooting, we developed a computer-vision system that would autonomously determine the appropriate parameters necessary for the shooter mechanism to shoot the balls into the target.",
+            },},{id: "projects-stochastic-gatekeeper-online-safety-verification",
+          title: 'Stochastic Gatekeeper: Online Safety Verification',
+          description: "Sampling-based safety verification for nonlinear robots operating under uncertain disturbances.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/aerosp740/";
+            },},{id: "projects-computer-vision-aided-robotics",
+          title: 'Computer Vision-Aided Robotics',
+          description: "For the 2020 FIRST Robotics competition, my team wanted to develop a mechanism to shoot foam dodgeballs into a target placed over 10 feet above the ground. In order to ensure the robot would be accurate when shooting, we developed a computer-vision system that would autonomously determine the appropriate parameters necessary for the shooter mechanism to shoot the balls into the target.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cv_robotics/";
             },},{id: "projects-clarity-driven-adaptive-mission-planning-for-a-solar-powered-autonomous-surface-vessel",
@@ -431,6 +436,11 @@ ninja.data = [{
           description: "An energy-aware ergodic search framework that optimizes trajectory and speed using a mathematically grounded information metric (clarity) for long-duration marine missions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/lake_testing/";
+            },},{id: "projects-path-planning-for-wave-powered-desalination",
+          title: 'Path Planning for Wave-Powered Desalination',
+          description: "Comparing genetic algorithms and reinforcement learning for a mobile wave-powered freshwater system.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mecheng599/";
             },},{id: "projects-optimally-trading-energy-for-information-through-speed-trajectory-optimization-of-sustainably-powered-mobile-robots",
           title: 'Optimally Trading Energy for Information through Speed Trajectory Optimization of Sustainably Powered Mobile...',
           description: "Characterizing energy-information tradeoffs in a periodic optimal control setting",
@@ -438,9 +448,14 @@ ninja.data = [{
               window.location.href = "/projects/periodic_ive/";
             },},{id: "projects-physics-informed-neural-network-based-persistent-optimal-control-of-sustainably-powered-mobile-robots",
           title: 'Physics-Informed Neural Network-Based Persistent Optimal Control of Sustainably Powered Mobile Robots',
-          description: "Using PINNs to learn infinte-horizon value functions",
+          description: "Using PINNs to learn infinite-horizon value functions",
           section: "Projects",handler: () => {
               window.location.href = "/projects/pinn_ive/";
+            },},{id: "projects-modeling-and-control-of-an-autonomous-sailboat",
+          title: 'Modeling and Control of an Autonomous Sailboat',
+          description: "Wind-aware waypoint navigation using a hierarchical controller and a genetic-algorithm comparison.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/rob599/";
             },},{
         id: 'social-email',
         title: 'email',
