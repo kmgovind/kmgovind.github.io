@@ -4,6 +4,11 @@
 repo_description_lines_max: 2
 
 github_repos:
+  - kmgovind/periodic-ive
+  - kmgovind/hierarchical-energy-aware-control
+  - corelab-umich/OptimalRendezvous
+  - kmgovind/ME599_Final_WEC_Mobile
+  - joonlee16/stochastic_gatekeeper
   - corelab-umich/seatrac-asv-controller
   - kmgovind/acc-2022
   - kmgovind/saildrone-controller

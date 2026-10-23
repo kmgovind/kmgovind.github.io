@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Physics-Informed Neural Network-Based Persistent Optimal Control of Sustainably Powered Mobile Robots
-description: Using PINNs to learn infinte-horizon value functions
+description: Using PINNs to learn infinite-horizon value functions
 img: assets/img/publication_preview/IVE_Diagram.jpg
 importance: 2
 category: research

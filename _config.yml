@@ -7,7 +7,7 @@ first_name: Kavin
 middle_name: M.
 last_name: Govindarajan
 contact_note: # a note displayed in the contact section, e.g. "Feel free to contact me via email or social media."
-description: # a short description of your site, displayed in the footer and search engines
+description: "Kavin M. Govindarajan, Robotics Ph.D. student and NSF Graduate Research Fellow at the University of Michigan, studying energy-aware planning and optimal control."
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -259,7 +259,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Govindarajan]
-  first_name: [Kavin, M.]
+  first_name: [Kavin, "Kavin M.", M.]
 
   style: apa
   locale: en

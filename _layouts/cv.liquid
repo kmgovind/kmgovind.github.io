@@ -121,6 +121,15 @@ layout: default
             </div>
           </div>
         {% endfor %}
+        {% if page.cv_bibliography %}
+          <a class="anchor" id="publications"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Publications and Manuscripts</h3>
+            <div class="publications">
+              {% bibliography %}
+            </div>
+          </div>
+        {% endif %}
       </div>
     </article>
   </div>
