@@ -40,6 +40,10 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    {% if page.recent_updates and page.recent_updates.enabled %}
+      {% include recent_updates.liquid %}
+    {% endif %}
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>

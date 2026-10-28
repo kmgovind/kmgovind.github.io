@@ -1,0 +1,13 @@
+{% assign item = include.item %}
+<article id="{{ item.highlight_id | default: item.slug | slugify }}" class="mb-4">
+  <p class="small text-muted mb-1">
+    <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%B %-d, %Y' }}</time>
+  </p>
+  <h3 class="h5">
+    <a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
+  </h3>
+  <p class="mb-1">{{ item.teaser | default: item.excerpt | strip_html | escape }}</p>
+  <a href="{{ item.url | relative_url }}"
+    >Read update{% if item.video_id %} and watch the recording{% endif %} →</a
+  >
+</article>

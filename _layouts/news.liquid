@@ -1,0 +1,41 @@
+---
+layout: page
+---
+<p class="text-muted">
+  <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%B %-d, %Y' }}</time>
+</p>
+
+{{ content }}
+
+{% if page.video_id %}
+  <details class="my-3">
+    <summary>Watch the recording</summary>
+    <div class="embed-responsive embed-responsive-16by9 mt-3">
+      <iframe
+        class="embed-responsive-item rounded"
+        src="https://www.youtube-nocookie.com/embed/{{ page.video_id }}"
+        title="{{ page.title | escape }} — recording"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      >
+      </iframe>
+    </div>
+  </details>
+  <p><a href="https://www.youtube.com/watch?v={{ page.video_id }}" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a></p>
+{% endif %}
+{% if page.event_url %}
+  <p><a href="{{ page.event_url }}" target="_blank" rel="noopener noreferrer">Event details ↗</a></p>
+{% endif %}
+{% if page.links %}
+  <p>
+    Related work:
+    {% for link in page.links %}
+      <a href="{{ link.url | relative_url }}">{{ link.label | escape }}</a>
+      {%- unless forloop.last %} · {% endunless %}
+    {% endfor %}
+  </p>
+{% endif %}
+<hr>
+<p><a href="{{ '/news/' | relative_url }}">All news and updates</a> · <a href="{{ '/highlights/' | relative_url }}#news">Back to Highlights</a></p>

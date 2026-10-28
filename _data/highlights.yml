@@ -1,0 +1,30 @@
+# Curated code features; the full repository list remains in repositories.yml.
+code:
+  - title: "Trading energy for information"
+    context: Research code
+    repository: kmgovind/periodic-ive
+    description: >-
+      Periodic speed optimization for sustainably powered mobile robots, with
+      a Chesapeake Bay salinity-monitoring case study.
+    project_url: /projects/periodic_ive/
+  - title: "Adaptive environmental monitoring"
+    context: Research code
+    repository: kmgovind/hierarchical-energy-aware-control
+    description: >-
+      Clarity-driven mission planning that connects information gathering with
+      energy-aware speed control, validated through solar-powered vessel field tests.
+    project_url: /projects/lake_testing/
+  - title: "Persistent speed control"
+    context: Research code
+    repository: kmgovind/persistent-speed-control
+    description: >-
+      Velocity planning for long-duration solar-powered vessel missions,
+      combining indirect optimal control with iterative learning.
+    paper_url: /publications/#ccta2025
+  - title: "Coordinated tip-and-cue missions"
+    context: Collaborative repository · CORE Lab
+    repository: corelab-umich/OptimalRendezvous
+    description: >-
+      Collaborative work on clarity-driven exploration and rendezvous planning
+      for a sustainably powered host vessel and an aerial agent.
+    paper_url: /publications/#cdc2025

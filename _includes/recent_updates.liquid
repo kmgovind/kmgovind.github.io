@@ -1,0 +1,19 @@
+{% assign recent_updates = site.news | where_exp: 'item', 'item.published != false' | sort: 'date' | reverse %}
+{% assign update_limit = page.recent_updates.limit | default: 3 %}
+{% if recent_updates.size > 0 %}
+  <section class="my-4" aria-labelledby="recent-updates-title">
+    <h2 id="recent-updates-title">recent updates</h2>
+    <ul class="list-unstyled">
+      {% for item in recent_updates limit: update_limit %}
+        <li class="mb-3">
+          <time class="small text-muted" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b %-d, %Y' }}</time>
+          <div>
+            <a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
+          </div>
+          <p class="mb-0">{{ item.teaser | default: item.excerpt | strip_html | escape }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+    <p><a href="{{ '/news/' | relative_url }}">All news and updates →</a></p>
+  </section>
+{% endif %}

@@ -143,7 +143,7 @@ collections:
   books:
     output: false
   news:
-    output: false
+    output: true
   projects:
     output: true
 
@@ -182,6 +182,7 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _news/README.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -212,6 +213,12 @@ plugins:
 
 # Sitemap settings
 defaults:
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: news
+      permalink: /news/:name/
   - scope:
       path: "assets"
     values:
