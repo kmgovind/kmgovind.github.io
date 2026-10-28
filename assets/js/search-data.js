@@ -23,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Code for my research, coursework, and robotics projects.",
+        },{id: "nav-highlights",
+          title: "highlights",
+          description: "Research news, talks, and selected code from my work in robotics and control.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/repositories/";
+            window.location.href = "/highlights/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -405,18 +405,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-my-work-on-adaptive-mission-planning-accepted-to-tcst",
+          title: 'My work on adaptive mission planning accepted to TCST',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/jordan-lake-tcst-acceptance/";
+            },},{id: "news-my-research-featured-in-the-umich-control-seminar",
+          title: 'My research featured in the UMich Control Seminar',
           description: "",
-          section: "News",},{id: "projects-nsf-graduate-research-fellowship",
+          section: "News",handler: () => {
+              window.location.href = "/news/umich-control-seminar-2026/";
+            },},{id: "projects-nsf-graduate-research-fellowship",
           title: 'NSF Graduate Research Fellowship',
           description: "My annual updates for the NSF GRFP",
           section: "Projects",handler: () => {
